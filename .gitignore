@@ -1,0 +1,7 @@
+**/bin/
+**/obj/
+.vs/
+/docs/demo-script.md
+/docs/generate-deck.cjs
+/docs/submission.md
+/docs/AI-Launch-Gate-Submission.pptx

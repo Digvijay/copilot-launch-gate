@@ -1,0 +1,21 @@
+{
+  "fixture": true,
+  "source": "synthetic-demo-data",
+  "capturedAt": "2026-10-06T12:00:00Z",
+  "environment": "fictional-nonproduction",
+  "resourceName": "sample-ai-project",
+  "deployment": {
+    "name": "sample-chat",
+    "status": "Succeeded",
+    "modelVersion": "synthetic"
+  },
+  "evaluation": {
+    "runId": "synthetic-eval-001",
+    "status": "Completed",
+    "groundednessScore": 0.71,
+    "groundednessThreshold": 0.85,
+    "crossTenantLeakageCases": 1,
+    "crossTenantLeakageThreshold": 0
+  },
+  "note": "All values are invented for demonstration. They are not live Azure resource state or real evaluation results."
+}
