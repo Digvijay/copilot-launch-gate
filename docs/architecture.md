@@ -3,11 +3,13 @@
 ## Workflow
 
 ```mermaid
-flowchart LR
+flowchart TB
     A[Git-backed AI app release candidate] --> B[GitHub Copilot App]
     B --> C[Read-only architecture review]
     B --> D[Read-only trust review]
     B --> E[Read-only operations review]
+    C ~~~ D
+    D ~~~ E
     F[Optional authorized read-only Foundry evidence] --> B
     C --> G[Evidence-backed findings]
     D --> G

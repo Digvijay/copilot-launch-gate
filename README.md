@@ -1,8 +1,14 @@
 # AI Launch Gate
 
+[![GitHub stars](https://img.shields.io/github/stars/Digvijay/copilot-launch-gate?style=flat-square)](https://github.com/Digvijay/copilot-launch-gate)
+![GitHub Copilot App workflow](https://img.shields.io/badge/platform-GitHub%20Copilot%20App-1f6feb?style=flat-square)
+![Synthetic demo](https://img.shields.io/badge/demo-synthetic-287a60?style=flat-square)
+
 **From release finding to verified pull request**
 
 AI Launch Gate turns a fragmented AI app review into a path from risk discovery to a tested, human-approved code change. In GitHub Copilot App, parallel reviewers inspect architecture, responsible AI, and operations. After an owner approves a specific fix, a coding session implements it in an isolated worktree, runs the available checks, and returns a diff for human review.
+
+See the [workflow architecture](docs/architecture.md) for the review, approval, implementation, and release gates.
 
 Review agents cannot edit files. A coding session may change only the scope a person approves. No agent changes Azure resources, merges code, or deploys. The sample is fictional and demonstrates the workflow, not a customer or production system.
 
@@ -72,4 +78,10 @@ Measure the workflow in a pilot; do not present proposed benefits as measured re
 
 To try the workflow, open `sample/ai-assistant/` in GitHub Copilot App and run `/ai-launch-gate`. The sample includes a raw-request logging issue and a small regression check. Its Foundry snapshot and evaluation cases are fictional, not connected to Azure. Do not deploy the sample.
 
-The [workflow architecture](docs/architecture.md) is part of the repo. The demo script, deck generator, finished deck, and submission notes are local prep files and stay out of Git.
+The [workflow architecture](docs/architecture.md) and narrated screen recording are part of this repository. Private capture sources, demo scripts, the deck generator, finished deck, and submission notes remain local prep files under `docs/` and stay out of Git.
+
+## Watch the workflow
+
+<video src="docs/GitHub-Copilot-App-Review.mp4" controls preload="metadata" width="100%"></video>
+
+[Open or download the narrated GitHub Copilot App walkthrough](docs/GitHub-Copilot-App-Review.mp4). It alternates genuine Copilot App reviewer conversations with Playwright-rendered repository evidence cards. All sample evidence is synthetic and demonstrates the review workflow, not customer or production outcomes.
