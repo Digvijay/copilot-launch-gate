@@ -82,6 +82,6 @@ The [workflow architecture](docs/architecture.md) and narrated screen recording 
 
 ## Watch the workflow
 
-<video src="docs/GitHub-Copilot-App-Review.mp4" controls preload="metadata" width="100%"></video>
+<video src="https://raw.githubusercontent.com/Digvijay/copilot-launch-gate/main/docs/GitHub-Copilot-App-Review.mp4" controls preload="metadata" width="100%"></video>
 
 [Open or download the narrated GitHub Copilot App walkthrough](docs/GitHub-Copilot-App-Review.mp4). It alternates genuine Copilot App reviewer conversations with Playwright-rendered repository evidence cards. All sample evidence is synthetic and demonstrates the review workflow, not customer or production outcomes.
