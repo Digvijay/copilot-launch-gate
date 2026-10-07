@@ -10,7 +10,7 @@ AI Launch Gate turns a fragmented AI app review into a path from risk discovery 
 
 Enterprise AI release reviews often span application engineering, security, Responsible AI, and operations. This workflow anchors their handoff to one Git revision, a shared evidence-based brief, an explicit owner decision, and a verified change that can enter the team's existing release process.
 
-See the [workflow architecture](docs/architecture.md) for the review, approval, implementation, and release gates.
+See the [workflow architecture](docs/architecture.md) for the review, approval, implementation, and release gates, or open the [three-slide challenge deck](docs/AI-Launch-Gate-Submission.pptx).
 
 Review agents cannot edit files. A coding session may change only the scope a person approves. People retain control of pull requests, merges, and deployments. The sample is fictional and demonstrates the workflow, not a customer or production system.
 
@@ -88,7 +88,7 @@ Measure the workflow in a pilot; do not present proposed benefits as measured re
 
 To try the workflow, open `sample/ai-assistant/` in GitHub Copilot App and run `/ai-launch-gate`. The sample includes a raw-request logging issue and a small regression check. Its service snapshot and evaluation cases are fictional, not live evidence or executed evaluations. Do not deploy the sample.
 
-The [workflow architecture](docs/architecture.md) and narrated screen recording are part of this repository. Private capture sources, demo scripts, the deck generator, finished deck, and submission notes remain local prep files under `docs/` and stay out of Git.
+The workflow architecture, challenge deck, product feedback, animated preview, and narrated screen recording are part of this repository. Private capture sources, demo scripts, the deck generator, and form prep notes remain local prep files under `docs/`.
 
 ## Watch the workflow
 
